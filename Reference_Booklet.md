@@ -17,8 +17,7 @@
 - [https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)
 # Configuring Windows
 
-- [https://git-scm.com/](https://git-scm.com/)
-- [https://github.com/MalwareCube/SOC101_Free](https://github.com/MalwareCube/SOC101_Free)
+
 ### **Disable real-time protection**
 
 `Set-MpPreference -DisableRealtimeMonitoring $true`
@@ -31,9 +30,7 @@
 ### **Disable Windows Defender AntiSpyware**
 
 `reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f`  
-### **Clone the course repository**
 
-`git clone https://github.com/MalwareCube/SOC101_Free.git`
 # Installing Ubuntu
 
 - Latest Ubuntu desktop download: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
